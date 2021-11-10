@@ -1,0 +1,56 @@
+/*
+ Theme Name:   Twenty Twenty One Artherapy
+ Theme URI:    http://qidian.blue/twenty-twentyone-artherapy/
+ Description:  Twenty Twenty One Child Theme
+ Author:       Dian Qi
+ Author URI:   http://qidian.blue
+ Template:     twentytwentyone
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwentyonechild
+*/
+
+html {
+	line-height: 1.15;
+
+	/* 1 */
+	-webkit-text-size-adjust: 100%;
+
+    border: 10px solid pink;
+
+	/* 2 */
+}
+
+
+.entry-title {
+	border: 10px solid red;
+}
+
+
+.full-width-body::before {
+    display: none;
+ }
+ 
+ .site-content.full-width {
+    float: none;
+    margin: 0 auto;
+ }
+ 
+ .site-header.full-width {
+    background-color: #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    margin: 0;
+    padding: 2% 0;
+ }
+ 
+ .site-branding.full-width {
+    margin: 0 auto;
+    width: 58.8235%;
+ }
+ 
+ .site-footer.full-width {
+    float: none;
+    margin: 0 auto;
+ }
